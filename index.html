@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Datos de Clientes</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1> Datos de Clientes</h1>
+    </header>
+    <main>
+        <form id="clienteForm">
+            <!--  Nombre -->
+            <div class="input-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" required>
+            </div>
+
+            <!-- correo -->
+            <div class="input-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+            </div>
+
+            <!--  Teléfono -->
+            <div class="input-group">
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" required>
+            </div>
+
+            <!--  Dirección -->
+            <div class="input-group">
+                <label for="direccion">Dirección:</label>
+                <input type="text" id="direccion">
+            </div>
+
+            <!-- Botón para Enviar el Formulario -->
+            <button type="submit">Guardar</button>
+        </form>
+
+        <!-- Lista de Clientes Guardados -->
+        <h2>Clientes Guardados:</h2>
+        <ul id="listaClientes"></ul>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

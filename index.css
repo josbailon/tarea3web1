@@ -1,0 +1,92 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d6d5d5;
+}
+
+header {
+    background-color: #7a7a7a;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #999898;
+    box-shadow: 0 0 5px rgba(55, 177, 39, 0.2);
+}
+
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #302c2c;
+    background-color: #f8ebeb;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #a1a1a1;
+}
+
+/* Estilos para la lista de clientes */
+ul {
+    list-style: none;
+    padding: 0;
+    
+}
+
+li {
+    
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #302c2c;
+    background-color: #fdd1d1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button.btn-eliminar {
+    background-color: #424040;
+    color: #f16464;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button.btn-eliminar:hover {
+    background-color: #cc0000;
+    color: #000;
+}
+
